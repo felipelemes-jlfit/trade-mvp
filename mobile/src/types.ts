@@ -1,0 +1,2 @@
+export type PhotoField = 'PRECO_INTEGRAL' | 'MIX_PRATELEIRAS' | 'MIX_CHECKOUT' | 'MIX_GELADEIRA' | 'MIX_PONTO_EXTRA' | 'PLANOGRAMA_PRATELEIRAS';
+export interface RouteStop { id: string; position: number; pdv: { id: string; name: string; address: string; lat?: number; lng?: number } }
